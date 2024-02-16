@@ -25,7 +25,7 @@ We'll do this by importing our private Github Package Registry source through th
 	
 ### Installation
 
-To install / use make sure you either clone, fork or use this repository as a template and set up your nuget.config file in the root folder of the repository.
+To install / use make sure you either clone, fork or use this repository as a template and update your nuget.config file in the root folder of the repository. You also need to update the appsettings.jsons if you're planning to debug/test the API, as it needs a random JWT Signing Key, or you can add an Authentication scheme with all those configurations.
 
 Make sure all dependencies are installed and up to date. If you update your NuGet package on the other repository do not forget to update the version via NuGet package manager or by updating your Sample.Application.csproj file.
 
